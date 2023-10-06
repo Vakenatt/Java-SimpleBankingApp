@@ -9,4 +9,12 @@ public class Customer {
         this.accountNumber = accountNumber;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public String getAccountNumber() {
+        return this.accountNumber;
+    }
+
 }

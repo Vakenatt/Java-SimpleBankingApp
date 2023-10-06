@@ -1,6 +1,14 @@
+import java.util.*;
+
 public class Bank {
 
-    public static void main (String [] args) {
-        
+    private ArrayList<Customer> customers;
+
+    public Bank() {
+        customers = new ArrayList<Customer>();
+    }
+
+    public void addCustomer(Customer customer) {
+        customers.add(customer);
     }
 }
